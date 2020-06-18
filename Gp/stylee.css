@@ -1,0 +1,60 @@
+* {
+    padding: 10;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+main {
+  color: brown;
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;  
+    margin-bottom: 10px; 
+}
+
+form {
+    /* background-color: lavender; */
+    width: 700px;
+    border: solid 1px black;
+    padding: 2rem;
+    margin-left: 420px;
+    
+}
+input[type=text],input[type=number],input[type=date],select{
+  /* background-color: lavender; */
+  width:650px;
+  padding:9px 25px;
+  display: inline-block;
+  color: brown;
+
+}
+
+button {
+    margin-top: 2rem;
+    background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+
+

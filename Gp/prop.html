@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title> Sai Poojitha Associates</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Gp - v2.0.0
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    <style>
+        #steps {
+            width: 100%;
+            height: 110vh;
+            background: url("/assets/img/steps blue.png") top center;
+            background-size: cover;
+            position: relative;
+            float: right;
+        }
+
+        #checklist {
+            width: 100%;
+            height: 110vh;
+            background: url("/assets/img/checklist paint.png") top center;
+            background-size: cover;
+            position: relative;
+            float: right;
+        }
+
+
+
+        #hero {
+            width: auto;
+            height: 100vh;
+            background: url("https://corpbiz.io/learning/wp-content/uploads/2019/12/Sole-Proprietorship-Registration.jpg") top center;
+            background-size: cover;
+            position: relative;
+        }
+
+        #hero:before {
+            content: "";
+            /* background: rgba(0, 0, 0, 0.6); */
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+
+        .new {
+            background: powderblue;
+            /* background: url("https://www.bsmconsulting.com/Media/Default/Images/Blog/Compliance-Training-banner2.jpg"); */
+            background-repeat: no-repeat;
+            background-position: right top;
+            margin-right: 0px;
+            background-attachment: scroll;
+        }
+
+        .one {
+            background: whitesmoke;
+            background-image: url("/assets/img/bg-4.png");
+            background-repeat: no-repeat;
+            background-position: right top;
+            margin-right: 0px;
+            background-attachment: scroll;
+            background-size: fixed;
+
+        }
+
+        .conta {
+
+            /* width: 100%; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 100px 0;
+
+        }
+
+        .timeline {
+            width: 80%;
+            height: auto;
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .timeline ul {
+            list-style: none;
+        }
+
+        .timeline ul li {
+            padding: 20px;
+            background-color: powderblue;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .timeline ul li:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-content h1 {
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .timeline-content p {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 300;
+            color: darkblue;
+        }
+
+        .timeline-content .date {
+            color: chocolate;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            font-style: normal;
+            text-align: center;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .timeline:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 2px;
+                height: 100%;
+                background-color: black;
+            }
+
+            .timeline ul li {
+                width: 50%;
+                position: relative;
+                margin-bottom: 50px;
+            }
+
+            .timeline ul li:nth-child(odd) {
+                float: left;
+                clear: right;
+                transform: translateX(-30px);
+                border-radius: 20px 0px 20px 20px;
+            }
+
+            .timeline ul li:nth-child(even) {
+                float: right;
+                clear: left;
+                transform: translateX(30px);
+                border-radius: 0px 20px 20px 20px;
+            }
+
+            .timeline ul li::before {
+                content: "";
+                position: absolute;
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                background-color: black;
+                top: 0px;
+            }
+
+            .timeline ul li:nth-child(odd)::before {
+                transform: translate(50%, -50%);
+                right: -30px;
+            }
+
+            .timeline ul li:nth-child(even)::before {
+                transform: translate(-50%, -50%);
+                left: -30px;
+            }
+
+            .timeline-content .date {
+                position: absolute;
+                top: -30px;
+            }
+
+            .timeline ul li:hover::before {
+                background-color: rgba(0, 255, 255, 0.281);
+            }
+        }
+
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 65%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+            margin-left: 250px;
+        }
+
+        /* 
+        .active,
+        .accordion:hover {
+            /* background-color: bisque; */
+        /* } */
+
+        */ .accordion:after {
+            content: '\002B';
+            color: black;
+            font-weight: bold;
+            float: right;
+            /* margin-left: 5px; */
+            margin-left: 250px;
+        }
+
+        .active:after {
+            content: "\2212";
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: rgba(250, 235, 215, 0.712);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            margin-left: 250px;
+            width: 65%;
+        }
+
+        .faq {
+            background-color: lavender;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+
+    <header id="header" class="fixed-top ">
+
+        <div class="container d-flex align-items-center justify-content-between">
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+
+                    <li class="drop-down"><a href="">BUSINESS REGISTRATION</a>
+                        <ul>
+                            <!-- <li><a href="#">COMPANY REGISTRATION</a> -->
+                            <li class="drop-down"><a href="#">COMPANY REGISTRATION</a>
+                                <ul>
+                                    <li><a href="#">PRIVATED LIMITED COMPANY REGISTRATION</a></li>
+                                    <li><a href="#">LLP REGISTRATION</a></li>
+                                    <li><a href="#">ONE PERSON COMPANY REGISTRATION</a></li>
+                                </ul>
+                            </li>
+                            <li class="drop-down"><a href="#">FIRM REGISTRATION</a>
+                                <ul>
+                                    <li><a href="/assets/files/propertiership.html">PROPRIETORSHIP</a></li>
+                                    <li><a href="#">PARTERNSHIP FIRM REGISTRATION</a></li>
+
+                                </ul>
+                            </li>
+                    </li>
+                </ul>
+                <li class="drop-down"><a href="#services">Services</a>
+                    <!-- <ul>
+            <li><a href="/assets/files/gst.html">Drop Down 1</a></li>
+            <li class="drop-down"><a href="#">Deep Drop Down</a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="/assets/files/incometax.html">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+          </ul> -->
+                </li>
+
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=+919614676869">
+                        Contact on whatsapp</a></li>
+
+
+
+                <!-- <li>
+                    <a href="https://api.whatsapp.com/send?phone=+919614676869">
+                        <img class="blah"
+                            src="assets/img/wallpaper-of-whatsapps-log-in-plain-black-background-680x425.jpg"
+                            alt="Contact us on whatsapp" style="width: 100px;height: 50px;">
+                    </a>
+                </li> -->
+
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+
+
+
+        </div>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <div class="hello">
+
+
+        <section id="hero" class="d-flex align-items-center justify-content-center">
+            <!-- <div class="container" data-aos="fade-up">
+                        <!-- <h1> Sole Propertiership</h1> -->
+
+
+            <!-- </div> --> -->
+
+
+            <!-- <div class="row mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+                <div class="col-xl-3 col-md-6 col-9">
+                    <div class="icon-box">
+                        <i class="ri-store-line"></i>
+                        <h3><a href="/assets/files/gst.html">About</a></h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-9">
+                    <div class="icon-box">
+                        <i class="ri-bar-chart-box-line"></i>
+                        <h3><a href="/assets/files/incometax.html">Advantages</a></h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-9">
+                    <div class="icon-box">
+                        <i class="ri-calendar-todo-line"></i>
+                        <h3><a href="">procedure</a></h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-9">
+                    <div class="icon-box">
+                        <i class="ri-paint-brush-line"></i>
+                        <h3><a href="">Requied Documents</a></h3>
+                    </div>
+                </div> -->
+
+    </div>
+
+    </section>
+
+    </div>
+
+
+    <!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                        <img src="assets/img/prop.jpeg" class="img-fluid" alt="image">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right"
+                        data-aos-delay="100">
+                        <h3>Sole Propertiership</h3>
+                        <br></br>
+                        <p style="font-size: medium;">
+                            Sole Proprietorship Firm Registration is Single Person Firm Registration i.e is the main
+                            objective is Open Current Bank
+                            Account on the Name of Business so it’s a simply firm which is enable doing business in
+                            India with Less Compliance and
+                            Less Costing. a Sole Proprietorship Firm require minimum 2 Legal Entity Proof for open a
+                            Current Bank Account.
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Advantages Section -->
+        <section id="background-grey" class="background-grey">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="assets/img/advantages2.svg" class="img-fluid" alt="image">
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="heading-section text-justify mt-5">
+                            <h2 class="cus_h_two_tag" style="font-weight: bold;">Advantages </h2>
+                            <ul class="list-icon list-icon-plus list-icon-colored">
+
+                                <li><strong>Minimum Compilance -</strong>Sole
+                                    Proprietorships have minimum compliance
+                                    requirements as they are identified
+                                    by
+                                    government and tax registrations.
+                                    Therefore, their agreements are confined to yearly filings of service, sales, or
+                                    professional taxes.
+                                </li>
+                                <li><strong>Ease of setup - </strong>The entrepreneur can start operations and receive
+                                    payments
+                                    from clients as no registrations are required to start a proprietorship.
+                                </li>
+                                <li><strong>Economical - </strong>When compared to an OPC or One Person Company,
+                                    a Sole Proprietorship is economical due to its minimum compliance requirements,
+                                    including no need to hire an auditor.
+                                    One of the main reasons why
+                                    small merchants and traders choose this
+                                    type of companies.
+                                </li>
+                                <li><strong>Ease of dissolution - </strong>
+                                    The proprietor does not have to particularly
+                                    wind up
+                                    the company incase he wants to cease operations. This saves a lot of time and
+                                    effort.
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Advantages Section -->
+
+        <!-- Steps Section -->
+
+        <section id="steps" class="d-flex align-items-center justify-content-center">
+            <div class="container">
+        </section>
+        </div>
+        <!-- End ofSteps Section -->
+
+
+        <!-- Documents Sections-->
+        <section id="checklist" class="d-flex align-items-center justify-content-center">
+            <div class="container">
+        </section>
+        </div>
+
+        <!-- End of Documents Sections-->
+        <br> </br>
+        <!-- Procedure Sections-->
+        <br> </br>
+        <div class="one">
+            <h1 style="color: chocolate; text-align: center;font-weight: bold;"> Process & Timeline for Starting
+                Proprietorship Firm
+            </h1>
+            <div class="conta">
+
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="timeline-content">
+
+                                <h1 class="date">DAY-1</h1>
+                                <h1>Documentation</h1>
+                                <p>The process starts with documentation of the proprietor and the place of business
+                                    where
+                                    the business of the firm shall
+                                    be carried on, ensure that the documents are updated and correct.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">DAY-1</h3>
+                                <h1>Selection of Name</h1>
+                                <p>First thing is to select a unique name of your proprietorship business and the
+                                    starting
+                                    point should be to search the
+                                    proposed name of the business in trademark register to avoid any infringement on
+                                    someone
+                                    else's trademark.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">DAY-1</h3>
+                                <h1>MSME - UDYOG Aadhar</h1>
+                                <p> To open a bank account there is need of two documents in the name of the
+                                    proprietorship, one of the registrations could
+                                    be Udyog Aadhar which enables an entrepreneur to seek online services offered by
+                                    Government Departments apart from
+                                    various other benefits under MSME Act.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">DAY 1-7</h3>
+                                <h1>GST Registration</h1>
+                                <p>You may not be able to supply goods or services all over India unless GST
+                                    Registration is obtained, However for same
+                                    state supply the limit is 20 Lac. This also serves as a second document document
+                                    issued for the proprietorship, which
+                                    shall be required by banks while opening a bank account in the name of the firm.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">DAY 1-7</h3>
+                                <h1>TAN Number Allotment</h1>
+                                <p>TAN number is a permanent number allotted to business for complying with the
+                                    provisions of withholding tax. You are
+                                    required to deduct TDS while making payments, hence the next step is to obtain TAN
+                                    number, which is mandatory to submit
+                                    TDS Returns</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- End of Procedure Sections-->
+
+        <!-- ======= Services Section ======= -->
+        <div class="new">
+
+            <section id="services" class="services">
+                <div class="container" data-aos="fade-up">
+
+                    <div class="section-title">
+                        <h1 style="text-align: center; color: chocolate;font-weight: bold;">
+                            Compliance
+                            Required By Proprietorship Firm</h1>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in"
+                            data-aos-delay="100">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                                <h4><a>GST Registration</a></h4>
+                                <p>GST registration is one of the ways to get a proprietorship registration done.
+                                    You
+                                    can
+                                    get yourself registered under GST
+                                    if your annual turnover is more than Rs. 40 lakhs. Also, if you are doing online
+                                    business (selling through amazon,
+                                    flipkart etc.), you are required to get a GST number under goods and service tax
+                                    Act.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                            data-aos-delay="200">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-file"></i></div>
+                                <h4><a>GST Return</a></h4>
+                                <p>The proprietorship firms registered under GST are required to file the GST return
+                                    on
+                                    a monthly, quarterly and annual
+                                    basis. GST return is a document that contains the details of the income of the
+                                    taxpayer. As filing of GST returns is
+                                    mandatory for all the registered Taxpayers including Partnership firms.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+                            data-aos-delay="300">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                                <h4><a>MSME registration</a></h4>
+                                <p>You can get yourself registered as Small and Medium Enterprise (SME) under the
+                                    MSME
+                                    Act. The application can be filed
+                                    electronically. Although it isn’t compulsory to register as an SME, it is highly
+                                    beneficial, especially at the time of
+                                    taking loan for the business. Also getting Udyog Aadhar Registration will be
+                                    very
+                                    beneficial.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                            data-aos-delay="100">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-world"></i></div>
+                                <h4><a>Accounting</a></h4>
+                                <p>The accounting for a sole proprietorship does not require a separate set of
+                                    accounting records, since the owner is
+                                    considered to be inseparable from the business. Nonetheless, it is always
+                                    advisable
+                                    to maintain records for business
+                                    activities of a Proprietorship firm, in order to judge whether these operations
+                                    are
+                                    generating a profit.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                            data-aos-delay="200">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                                <h4><a>IT Returns</a></h4>
+                                <p>Income tax filing must be filed by all proprietorship having a taxable income
+                                    over
+                                    the exemption threshold. In some
+                                    cases, a tax audit would also be required. Since proprietorship is considered to
+                                    be
+                                    one and same as the proprietor, the
+                                    income tax return filing procedure for a proprietorship is similar to individual
+                                    income tax return filing.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                            data-aos-delay="300">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-arch"></i></div>
+                                <h4><a>Tax Audit</a></h4>
+                                <p>There is no obligation for a sole proprietor under any law to get the accounts
+                                    except
+                                    in case where the turnover of a
+                                    proprietary business in any financial year exceeds 1 Crores Rupees and gross
+                                    receipt
+                                    from profession exceeds 50 Lakhs
+                                    Rupees. In both cases, the audit of accounts is compulsory for a proprietor
+                                    under
+                                    the Income Tax Act, 1961.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <!-- End Services Section -->
+
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+            <div class="container" data-aos="zoom-in">
+
+                <div class="text-center">
+                    <h3>Contact Us through whatsapp</h3>
+                    <a class="cta-btn" href="https://api.whatsapp.com/send?phone=+919614676869">whatsapp</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Cta Section -->
+        <!-- ======= FAQ Section ======= -->
+        <div class="faq">
+            <h1 style="color: chocolate; text-align: center;font-weight: bold;">Frequently Asked Questions</h1>
+            <br> </br>
+
+            <button class=" accordion">Who can start a Sole Proprietorship?
+            </button>
+            <div class="panel">
+                <p> Any Indian citizen can start a sole proprietorship firm.
+                </p>
+            </div>
+
+            <button class="accordion">What are businesses commonly run as Sole Proprietorship?
+            </button>
+            <div class="panel">
+                <p>Most local businesses are run as a Sole Proprietorship, from your grocery store to a fast food
+                    vendor, and even small
+                    traders and manufacturers. This is not to say that larger businesses do not operate as sole
+                    proprietors.</p>
+            </div>
+
+            <button class="accordion">Can I later convert my Proprietorship into a Company or LLP?</button>
+            <div class="panel">
+                <p>Yes, the proprietorship can be converted to LLP or Private Limited Company</p>
+            </div>
+            <button class="accordion">What is the minimum amount of capital required to start a Proprietorship
+                Firm?</button>
+            <div class="panel">
+                <p>A proprietorship business can be started with any amount of capital and as such, there is no
+                    provision in the law which
+                    prescribe any minimum capital for the firm. The capital must be infused by the proprietor based
+                    on
+                    the nature and scale
+                    of the proposed business. You shall have the ability to introduce or withdraw capital at any
+                    time
+                    from the accounts of
+                    the proprietorship business as drawings</p>
+            </div>
+            <button class="accordion">Will my Proprietorship firm have a Certificate of Incorporation or
+                Registration?</button>
+            <div class="panel">
+                <p> There is no certificate of registration or incorporation for proprietorship business as such.
+                    The
+                    legal identity of
+                    proprietorship as an entity is determined through various other registration or licenses
+                    obtained in
+                    the name of the
+                    proprietorship firm on the case to case basis. Similarly, each specific registration shall
+                    result in
+                    the issuance of a
+                    certificate of registration, for example, GST Certificate, MSME Registration Certificate, Tan
+                    Allotment Letter, etc</p>
+            </div>
+            <button class="accordion">Under which Government Authority, the application of Sole Proprietorship Firm
+                Registration is submitted?</button>
+            <div class="panel">
+                <p> There is no law which enforces registration of a proprietorship firm as such, SETINDIABIZ helps
+                    entrepreneurs in
+                    securing registration under MSME, GST, Shops & Establishment, etc. the MSME registration is done
+                    under The Micro, Small
+                    and Medium Enterprises Development Act, 2006 of Central Government</p>
+            </div>
+            <button class="accordion">Do I require another person to register a Sole Proprietorship in
+                India?</button>
+            <div class="panel">
+                <p> No, A proprietorship business is owned and controlled by a sole person. There is no requirement
+                    to
+                    engage any other
+                    person to start a proprietorship business.</p>
+            </div>
+
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                            panel.style.maxHeight = null;
+                        } else {
+                            panel.style.maxHeight = panel.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
+            <br> </br>
+        </div>
+        <!-- ======= END OF FAQ Section ======= -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <h3>Sai Poojitha Associates<span>.</span></h3>
+                            <p>
+                                V'Do's Colony <br>
+                                Khammam<br><br>
+                                <strong>Phone:</strong> 9052096789<br>
+                                <strong>Email:</strong> Pujitha pulibandla13@gmail.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">GST</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Income Tax</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">startup</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
+                <h4>Our Newsletter</h4>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+    
+              </div> -->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- <div class="copyright">
+            &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
+          </div> -->
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+    <script src="scripts/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase Authentication</title>
+</head>
+
+<body>
+    <main>
+        <div>
+            <label for="phoneNumber">Phone Number</label> <br>
+            <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]" /> <br>
+        </div>
+        <div>
+            <label for="code">Code</label> <br>
+            <input type="text" id="code" name="code" /> <br>
+        </div>
+        <div id="recaptcha-container"></div>
+        <button id="signInWithPhone">Login</button>
+        <button id="getCode">Get Code</button>
+    </main>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-auth.js"></script>
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCpDoPL3GtlosVpvr51JNn4GIEPaIXRSW8",
+            authDomain: "setpasswordandlogin.firebaseapp.com",
+            databaseURL: "https://setpasswordandlogin.firebaseio.com",
+            projectId: "setpasswordandlogin",
+            storageBucket: "setpasswordandlogin.appspot.com",
+            messagingSenderId: "1095007503412",
+            appId: "1:1095007503412:web:6b66314d275d98bf773661",
+            measurementId: "G-PVKQQH0T4R"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <!-- Initialize Firebase -->
+    <!-- <script src="/__/firebase/init.js"></script> -->
+    <script src="./numberauthentication.js"></script>
+</body>
+
+</html>

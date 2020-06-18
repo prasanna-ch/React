@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sai Poojitha Associates </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="stylee.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: gainsboro;
+            background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/shutterstock_1145284904_372957.jpg");
+            background-position: left top;
+            /*Positioning*/
+            background-repeat: no-repeat;
+
+            padding: 15;
+            padding-left: 25px;
+            background-size: 650px 600px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+
+            <form id="data">
+                <div class="imgcontainer">
+
+                    <img src="https://vectorified.com/images/employee-icon-19.png" alt="images" class="avatar">
+                </div>
+                <label for="firstName">Customer Name</label><br>
+                <input type="text" name="firstName" id="firstName" required><br>
+                <label for="Phone Number">Phone Number</label><br>
+                <input type="number" name="Phone Number" id="phonenumber" required minlength="13"><br>
+
+                <label for="date">Date Of Joining</label><br>
+                <input type="date" name="date" id="date" required><br>
+
+                <label for="type"> Assigned Employee Type</label><br>
+                <select id="type">
+                    <option value="SPAC1">Compilance Department </option>
+                    <option value="SPAR2">Relationship Department </option>
+                    <option value="SPAR3">Marketing Department</option>
+                    <option value="SPAO4">Operation Department</option>
+                    <option value="SPAE5"> Economical and Financial Department</option>
+                    <option value="SPAR6">Resarch and Development Department</option>
+                </select>
+
+                <label for="type">Customer Type</label><br>
+                <select id="customertype">
+
+                    <option value="Regular">Regular</option>
+                    <option value="Composite Customer">Composite Customer </option>
+                    <option value="Income Tax">Income Tax</option>
+                    <option value="TDS">TDS</option>
+                    <option value="Others"> Others</option>
+                </select>
+
+                <button id="addBtn" class="btn">Register</button>
+                <!-- <button id="updateBtn" class="btn">Update</button>
+                <button id="removeBtn" class="btn ">Remove</button> -->
+            </form>
+
+        </div>
+
+    </main>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCpDoPL3GtlosVpvr51JNn4GIEPaIXRSW8",
+            authDomain: "setpasswordandlogin.firebaseapp.com",
+            databaseURL: "https://setpasswordandlogin.firebaseio.com",
+            projectId: "setpasswordandlogin",
+            storageBucket: "setpasswordandlogin.appspot.com",
+            messagingSenderId: "1095007503412",
+            appId: "1:1095007503412:web:6b66314d275d98bf773661",
+            measurementId: "G-PVKQQH0T4R"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script src="./customer.js"></script>
+</body>
+
+</html>
